@@ -1,0 +1,70 @@
+   
+   footer {
+    gap: 30px;
+   }
+
+
+   #result {
+    position: relative;
+    bottom: 5px;
+   }
+   .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .calc {
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 45px;
+    border-radius: 3px;
+   }
+
+
+   @media(min-width: 875px) {
+
+    .label {
+        width: 20%;
+       }
+
+    main {
+        display: flex;
+    }
+
+    footer {
+        gap: 20px;
+    }
+
+    #result {
+        bottom: 10px;
+       }
+       
+   }
+
+
+   @media(min-width: 992px) {
+    footer {
+        gap: 65px;
+    }
+   }
+
+   @media(min-width: 1022px) {
+    .calc:hover {
+        background-color: rgb(17, 107, 197);
+        color: whitesmoke;
+    }
+
+    footer {
+        gap: 85px;
+    }
+   }
+
+   @media(min-width: 1422px) {
+    footer {
+        gap: 125px;
+    }
+   }
