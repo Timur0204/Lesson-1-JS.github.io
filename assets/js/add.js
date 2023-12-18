@@ -21,10 +21,10 @@
 
     for (let i = 0; i < minIncome.length; i++) {
         if (taxIncome > maxIncome[i]) {
-            calcTax += Math.round((maxIncome[i] - minIncome[i] + 1) * taxRates[i]) * 100 / 100;
+            calcTax += Math.round(((maxIncome[i] - minIncome[i] + 1) * taxRates[i]) * 100) / 100;
 
         } else {
-            calcTax += Math.round((taxIncome - minIncome[i] + 1) * taxRates[i]) * 100 / 100;
+            calcTax += Math.round(((taxIncome - minIncome[i] + 1) * taxRates[i]) * 100) / 100;
             break;
         }
     }
